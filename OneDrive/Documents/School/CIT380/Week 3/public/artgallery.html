@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Digital Art Gallery</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/flexbox.css">
+</head>
+<body>
+
+  <header>
+    <h1>Digital Art Gallery</h1>
+    <nav>
+      <a href="index.html">Logout</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="gallery">
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="artwork">Upload Artwork:</label>
+            <input type="file" id="artwork" name="artwork" accept="image/*" required>
+            <input type="submit" value="Upload">
+        </form>
+      <!-- Eventually hoping to add the ability to upload the images from the website -->
+      <!-- <div class="art-piece"><img src="C:\Users\Emily\OneDrive\Documents\School\CIT380\Week 2\Art\Scarlet.jpg" alt="Artwork 1"></div> -->
+      <!-- <div class="art-piece"><img src="C:\Users\Emily\OneDrive\Documents\School\CIT380\Week 2\Art\SoRiku.jpg" alt="Artwork 2"></div> -->
+      <!-- <div class="art-piece"><img src="C:\Users\Emily\OneDrive\Documents\School\CIT380\Week 2\Art\Taalia.jpg" alt="Artwork 3"></div> -->
+      <!-- Add more art-piece divs as needed -->
+    </section>
+  </main>
+
+  <footer>
+    <p>Author: <a href="https://github.com/sudodragoness">Emily Berry</a></p>
+  </footer>
+
+  <script src="./src/app.js"></script>
+</body>
+</html>
