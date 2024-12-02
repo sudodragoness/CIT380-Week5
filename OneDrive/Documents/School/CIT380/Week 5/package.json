@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "express": "^4.21.1",
+    "jquery": "^3.7.1",
+    "nodemon": "^3.1.7"
+  },
+  "name": "week-5",
+  "version": "1.0.0",
+  "description": "Serving the website to a browser and extend its capabilities with an API.",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/jquery": "^3.5.32"
+  },
+  "scripts": {
+    "start": "nodemon ./server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

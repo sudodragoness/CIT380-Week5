@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Digital Art Gallery</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/flexbox.css">
+</head>
+<body>
+
+  <header>
+    <h1>Digital Art Gallery</h1>
+    <nav>
+      <a href="index.html">Logout</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="gallery">
+      <form id="upload-form" enctype="multipart/form-data">
+        <input type="file" name="artFiles[]" multiple>
+        <button id="upload-button">Upload</button>
+      </form>
+      <div id="artwork-display"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Author: <a href="https://github.com/sudodragoness">Emily Berry</a></p>
+  </footer>
+
+  <script src="./src/app.js"></script>
+  <script src="./src/upload.js"></script>
+</body>
+</html>
